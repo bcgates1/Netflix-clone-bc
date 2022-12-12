@@ -1,0 +1,274 @@
+* {
+  margin: 0px;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  text-decoration: none;
+  background-color: #141414;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: 30%;
+}
+
+.bannerimg img {
+  position: absolute;
+  width: 35%;
+  top: 20%;
+  left: 2%;
+  padding: 20px;
+
+}
+
+.bannertext {
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  left: 2%;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.heading {
+  width: auto;
+  font-weight: bold;
+  font-size: 1.6vw;
+
+}
+
+.bannerdescription {
+  font-size: 1.2vw;
+  text-align: left;
+  line-height: 25px;
+
+
+
+}
+
+.mainplaybutton img {
+
+  border-radius: 25px;
+  top: 560px;
+  width: 100px;
+  height: 42px;
+}
+
+.detailsbutton img {
+  border-radius: 23px;
+  width: 130px;
+  height: 44px;
+  top: 560px;
+  left: 140px;
+}
+
+
+
+.top_row {
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 20px;
+
+
+}
+
+.topright {
+  position: absolute;
+  top: 1px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: rgba(9, 9, 9, .98);
+  min-width: 190px;
+  min-height: 400px;
+  left: -100px;
+  z-index: 1;
+  color: white;
+}
+
+.dropdown-content img {
+  height: 32px;
+
+}
+
+.dropdown-content div {
+  height: 21px;
+
+}
+
+.profilename {
+  position: relative;
+  left: 70px;
+  top: 7px;
+  font-size: 1rem;
+}
+
+.signout {
+  position: relative;
+  left: 30px;
+  top: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.topright img {
+  margin: 20px;
+
+}
+
+.profileicon img {
+  height: 40px;
+}
+
+.searchicon img {
+  height: 20px;
+}
+
+.bellicon img {
+  height: 20px;
+  ;
+}
+
+.netflix_logo img {
+  height: 60px;
+}
+
+.top_row div {
+
+  margin: 10px;
+  padding-left: 10px;
+
+
+}
+
+.row1 {
+  display: flex;
+  margin-left: 20px;
+  position: absolute;
+  bottom: -160px;
+
+}
+
+.text {
+  position: absolute;
+  font-size: 1.6vw;
+  color: white;
+  bottom: 175px;
+  left: 30px;
+}
+
+.row1 img {
+
+  margin: 2px;
+  width: 250px;
+  margin-bottom: 14px;
+
+}
+
+.pon {
+
+  display: flex;
+  margin-left: 30px;
+}
+
+.row2 {
+
+  margin-left: 50px;
+  display: flex;
+
+
+}
+
+.row2 img {
+
+  margin: 2px;
+  width: 250px;
+
+}
+
+.text2 {
+
+  font-size: 1.6vw;
+  color: white;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+
+
+}
+
+.footer {
+  margin-top: 100px;
+  margin-left: 283px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.footer>* {
+
+  margin: 10px;
+
+}
+
+.helprow {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: grey;
+  margin-left: 260px;
+  margin-right: 260px;
+
+}
+
+.helprow>div {
+  flex: 1 1 200px;
+  padding: 10px;
+}
+
+.service_code {
+  margin-left: 260px;
+  margin-right: 1140px;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 6px;
+  border: 1px solid grey;
+  text-align: center;
+
+}
+
+.licence {
+  margin-left: 250px;
+  height: 19px;
+}
